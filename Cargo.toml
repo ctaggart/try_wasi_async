@@ -1,0 +1,12 @@
+[package]
+name = "try_wasi_async"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+async-executor = "*"
+futures-lite = "*"
+# reqwest = "*"
+surf = "*"
+# surf = { version = "*", default-features = false, features = ["wasm-client"] }
+# anyhow = "*"
