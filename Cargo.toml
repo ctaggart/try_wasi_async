@@ -8,3 +8,8 @@ async-executor = "*"
 futures-lite = "*"
 # surf = "*"
 surf = { version = "*", default-features = false, features = ["wasm-client"] }
+# surf = { file = "../surf", default-features = false, features = ["wasm-client"] }
+
+# [patch.crates-io]
+# http-client = { path = "../http-client" }
+# http-types = { path = "../http-types" }
