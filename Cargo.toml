@@ -6,7 +6,5 @@ edition = "2018"
 [dependencies]
 async-executor = "*"
 futures-lite = "*"
-# reqwest = "*"
-surf = "*"
-# surf = { version = "*", default-features = false, features = ["wasm-client"] }
-# anyhow = "*"
+# surf = "*"
+surf = { version = "*", default-features = false, features = ["wasm-client"] }
